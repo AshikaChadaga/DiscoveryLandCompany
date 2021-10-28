@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="shortcut icon" href="../assets/gallery/logo-transparent.png">
+    <title>Discovery Land Company</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div id="header-navigation"></div>
+        <div class="header-text">Gallery</div>
+    </header>
+
+    <div class="main-content" id="main-content">
+
+        <div class="gallery-cards" id="gallery-cards">
+            <img src="../assets/gallery/1_girl_surfing.jpg" alt="Outdoor Pursuits">
+        </div>
+
+        <div class="gallery-cards" id="gallery-cards">
+            <img src="../assets/gallery/2_golf_image.jpg" alt="Golf">
+        </div>
+
+        <div class="gallery-cards" id="gallery-cards">
+            <img src="../assets/gallery/3_lifestyle.jpeg" alt="Lifestyle">
+        </div>
+
+        <div class="gallery-cards-text">Outdoor Pursuits</div>
+        <div class="gallery-cards-text">Golf</div>
+        <div class="gallery-cards-text">Lifestyle</div>
+
+        <div id="gallery-cards">
+            <img src="../assets/gallery/4_landscape.jpg" alt="Landscape">
+        </div>
+
+        <div id="gallery-cards">
+            <img src="../assets/gallery/5_clubhouse.jpg" alt="Clubhouse">
+        </div>
+
+        <div id="gallery-cards">
+            <img src="../assets/gallery/6_wellness.jpg" alt="Wellness">
+        </div>
+
+        <div class="gallery-cards-text">Landscapes</div>
+        <div class="gallery-cards-text">Clubhouses</div>
+        <div class="gallery-cards-text">Wellness</div>
+    </div>
+
+    <div id="footer-section"></div>
+
+    <script>
+        function displayDropdown() {
+            document.getElementById("dropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+
+</body>
+
+</html>

@@ -50,8 +50,6 @@ body {
     height: 2px;
     background-color: #fff;
     margin: 6px 0;
-    margin-left: 90px;
-    margin-left: 40px;
 }
 
 .header-text {
@@ -61,6 +59,22 @@ body {
     color: #fff;
     font-weight: 150;
     font-size: calc(20.66667px + 3.06667vw);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 20px 30px;
+    display: block;
+}
+
+.show {
+    display: block;
 }
 
 a {
@@ -98,22 +112,6 @@ img {
 button {
     background: transparent;
     border: 0px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-}
-
-.dropdown-content a {
-    color: #fff;
-    padding: 20px 30px;
-    display: block;
-}
-
-.show {
-    display: block;
 }
 
 /* footer-css */

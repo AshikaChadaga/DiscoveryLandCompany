@@ -1,7 +1,7 @@
 document.getElementById("header-navigation").innerHTML =
     `<div class="nav-tab" id="nav-tab">
     <div class="left-header" id="left-header">
-        <img class="logo-img" src="../assets/gallery/logo.png" alt="Discovery Land Company Logo">
+        <a href="../pages/homepage.html"><img class="logo-img" src="../assets/gallery/logo.png" alt="Discovery Land Company Logo"></a>
     </div>
     <div class="right-header" id="right-header">
         <div class="navigation">

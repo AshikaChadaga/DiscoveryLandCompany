@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* header-css*/
+
+.header {
+    margin: 0%;
+    min-height: 300px;
+}
+
+.logo-img {
+    width: 200px;
+    height: 45px;
+    padding-top: 0px;
+}
+
+.nav-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.left-header {
+    padding-left: 120px;
+}
+
+#right-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    padding-right: 60px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    padding-left: 10px;
+}
+
+.header-text {
+    margin-left: 230px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 150;
+    font-size: calc(20.66667px + 3.06667vw);
+}
+
+.dropbtn{
+    /* align-items: center; */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 20px 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.show {
+    display: block;
+}
+
+.menu {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* main-content */
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.picture-name{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.picture-location{
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    font-weight: bold;
+    padding-top: 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.ourworld-photos{
+    height: 70%;
+    width: 100%;
+    
+}
+
+/* footer-css */
+
+.footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    background-color: #161f1e;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-section {
+    margin-top: 145px;
+}
+
+.footer-logo {
+    width: 48px;
+    height: 48px;
+    margin-left: 220px;
+    margin-bottom: 220px;
+}
+
+.footer-tag {
+    margin-left: 220px;
+    margin-bottom: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-list {
+    padding-left: 0px;
+}
+
+.footer-links {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 17px;
+}

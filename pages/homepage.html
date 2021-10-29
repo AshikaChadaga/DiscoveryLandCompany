@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="shortcut icon" href="../assets/gallery/logo-transparent.png">
+    <title>Discovery Land Company</title>
+</head>
+
+<body>
+    <header class="header">
+        <video class="header-video" autoplay muted loop>
+            <source src="../assets/homepage/DLC web hero 1.5min organized by property.mp4" type="video/mp4">
+        </video>
+        <div id="header-navigation">
+        </div>
+        <div class="header-text">
+            <p class="discover-text">Discover</p>
+            <p class="yourworld-text">your world</p>
+        </div>
+        <div class="scroll-text">
+            <p class="scroll-text">Scroll to explore</p>
+        </div>
+    </header>
+
+    <div id="main-content">
+        <div class="section-1" id="section-1">
+            <div id="left-side">
+                <div class="left-side-content">
+                    <h1 class="welcome-text">Welcome to</h1>
+                    <h2 class="ourworld-text">our world</h2>
+                    <article class="section1-text">Discover the unique atmosphere of our private residential clud communities. Once
+                        experienced. Never forgotton. This is classic, comfortable, modern living in nature's most
+                        spectacular settings worldwide. Reassuringly, exclusive. Generously welcoming. Find your unique
+                        world - a place where families love to be; creating unforgettable moments, together.
+                    </article>
+                </div>
+                <div>
+                    <img class="left-side-image" src="../assets/homepage/welcome-image.jpg" alt="Man sitting near bonfire">
+                </div>
+            </div>
+            <div id="rightside">
+                <div class="right-side-image">
+                    <img class="right-side-image" src="../assets/homepage/section1-right.jpg" alt="People surfing">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-section"></div>
+
+    <script>
+        function displayDropdown() {
+            document.getElementById("dropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+
+</html>

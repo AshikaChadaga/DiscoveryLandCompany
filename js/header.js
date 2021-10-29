@@ -5,19 +5,19 @@ document.getElementById("header-navigation").innerHTML =
     </div>
     <div class="right-header" id="right-header">
         <div class="navigation">
-            <a href="../pages/about.html">About DLC</a>
+            <a class="menu" href="../pages/about.html">About DLC</a>
         </div>
         <div class="navigation">
-            <a href="../pages/our_worlds.html">Our Worlds</a>
+            <a class="menu" href="../pages/our_worlds.html">Our Worlds</a>
         </div>
         <div class="navigation">
-            <a href="../pages/experience.html">Experience</a>
+            <a class="menu" href="../pages/experience.html">Experience</a>
         </div>
         <div class="navigation">
-            <a href="../pages/gallery.html">Gallery</a>
+            <a class="menu" href="../pages/gallery.html">Gallery</a>
         </div>
         <div class="navigation">
-            <a href="../pages/press.html">Press</a>
+            <a class="menu" href="../pages/press.html">Press</a>
         </div>
         <div class="navigation">
             <button onclick="displayDropdown()" class="dropbtn">

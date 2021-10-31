@@ -90,6 +90,10 @@ body {
     cursor: pointer;
 }
 
+.gallery-page{
+    border-bottom: 2px solid #fff;
+}
+
 /* main-content-css */
 
 .main-content {

@@ -275,7 +275,7 @@ body {
     height: 800px;
     padding-left: 40px;
     padding-right: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #fff;
     margin: 0px;
 }
@@ -301,10 +301,13 @@ body {
 }
 
 .explore-title {
+    font-size: 30px;
+    font-weight: lighter;
     padding-top: 550px;
 }
 
 .explore-location {
+    font-size: 20px;
     padding-bottom: 30px;
     margin-top: 0px;
 }
@@ -312,6 +315,7 @@ body {
 /* section 6 */
 
 .section-6 {
+    
     max-width: 100%;
     max-height: 100%;
     padding-bottom: 200px;

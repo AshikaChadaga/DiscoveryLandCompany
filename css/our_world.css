@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    overflow-x: hidden;
 }
 
 /* header-css*/
@@ -89,6 +90,13 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.menu:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.ourworlds-page{
+    border-bottom: 2px solid #fff;
+}
 
 /* main-content */
 
@@ -126,10 +134,6 @@ body {
     height: 70%;
     width: 100%;
     
-}
-
-.ourworlds-page{
-    border-bottom: 2px solid #fff;
 }
 
 /* footer-css */

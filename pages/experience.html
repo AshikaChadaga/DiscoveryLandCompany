@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/gallery/logo-transparent.png">
+    <link href='https://css.gg/arrow-long-down.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/experience.css">
+    <title>Experiences | Discovery Land Company</title>
+</head>
+
+<body>
+    <header class="header">
+        <video class="header-video" autoplay muted loop>
+            <source src="../assets/experience/experiences_hero.mp4" type="video/mp4">
+        </video>
+        <div id="header-navigation">
+        </div>
+        <div class="header-text">
+            <p class="discover-text">Unforgettable</p>
+            <p class="yourworld-text">experiences</p>
+        </div>
+        <div class="scroll-text">
+            <p class="scroll-text">
+                Scroll to explore
+                <span class="scroll-arrow" style='font-size:100px;'>&darr;</span>
+            </p>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="section-1">
+            <p class="section1-content"> Memorable days. Exceptional nights. We believe it’s our mission </p>
+            <p class="section1-content">to make every minute matter. So you can live your life to the </p>
+            <p class="section1-content">fullest, with the people closest to you. </p>
+        </div>
+
+        <div class="section-2">
+            <div class="mission-section">
+                <h1 class="section-title">Exclusive to<br>your world</h1>
+                <p class="mission-content">
+                    Our worlds are designed to offer you endless opportunities to share incredible once-in-a-lifetime
+                    experiences and adventures every single minute of the day. Each of our settings offers a relaxed
+                    sense of community through exceptional clubhouses, world-class golf courses, welcoming staff and an
+                    extensive Outdoor Pursuits program. Create moments of joy and wonder, unforgettable memories and
+                    cherished times, together with those who matter most.
+                </p>
+            </div>
+            <div class="image-section">
+                <img class="section2-image" src="../assets/experience/section2.jpg" alt="Mission Image" height="900">
+            </div>
+        </div>
+
+        <div class="section-3">
+            <div class="section3-gradient">
+            </div>
+            <div class="section3-image">
+                <img class="golf-image" src="../assets/experience/section3_image2.jpg" alt="Man Golfing">
+            </div>
+            <div class="section3-content">
+                <div class="content">
+                    <h1 class="section3-heading">Golf</h1>
+                    <p class="section3-para">
+                        We commission the world’s most renowned course architects to design spectacular golf experiences
+                        on challenging yet incredibly playable 18-hole courses. Our trademark comfort stations also set
+                        new standards in on-course amenities.
+                    </p>
+                    <a class="section3-link" href="../pages/golf.html">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-4">
+            <div class="section4-gradient">
+            </div>
+            <div class="section4-image">
+                <img class="mountain-image" src="../assets/experience/section4.jpg" alt="Mountain Range">
+            </div>
+            <div class="section4-content">
+                <div class="content">
+                    <h1 class="section4-heading">Outdoor Pursuits</h1>
+                    <p class="section4-para">
+                        Our signature Outdoor Pursuits program is designed for families to create memories together.
+                        Whether you’re trying a new sport or taking a day trip, our team will ensure you make the most
+                        of every minute with activities designed to help you take advantage of everything each region
+                        has to offer.
+                    </p>
+                    <a class="section4-link" href="../pages/outdoor_pursuits.html">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-3 section-5">
+            <div class="section5-gradient section3-gradient">
+            </div>
+            <div class="section3-image">
+                <img class="golf-image" src="../assets/experience/section5.jpg" alt="Pool">
+            </div>
+            <div class="section3-content">
+                <div class="content">
+                    <h1 class="section3-heading">Wellness</h1>
+                    <p class="section3-para">
+                        Unwind at an indulgent spa. Set challenging targets with a tailor-made fitness plan. Or let our talented chefs treat you to our flavorful international menus created using the finest, carefully selected foods sourced locally from organic farms.
+                    </p>
+                    <a class="section3-link" href="../pages/golf.html">Explore</a>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="section-6">
+            <div class="section6-content">
+                <h1 class="section6-title">Our Worlds</h1>
+                <a class="section6-link" href="../pages/our_worlds.html">Explore</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer-section"></div>
+
+    <script>
+        function displayDropdown() {
+            document.getElementById("dropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+
+</body>
+
+</html>

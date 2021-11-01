@@ -11,7 +11,7 @@ document.getElementById("header-navigation").innerHTML =
             <a class="menu ourworlds-page" href="../pages/our_worlds.html">Our Worlds</a>
         </div>
         <div class="navigation">
-            <a class="menu experience-page" href="../pages/experience.html">Experience</a>
+            <a class="menu experience-page" href="../pages/experience.html">Experiences</a>
         </div>
         <div class="navigation">
             <a class="menu gallery-page" href="../pages/gallery.html">Gallery</a>

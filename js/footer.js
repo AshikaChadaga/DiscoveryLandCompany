@@ -15,7 +15,7 @@ document.getElementById("footer-section").innerHTML =
         <ul class="footer-list">
             <li class="footer-links"><a class="menu about-page" href="../pages/about.html">About DLC</a></li>
             <li class="footer-links"><a class="menu ourworlds-page" href="../pages/our_worlds.html">Our Worlds</a></li>
-            <li class="footer-links"><a class="menu experience-page" href="../pages/experience.html">Experience</a></li>
+            <li class="footer-links"><a class="menu experience-page" href="../pages/experience.html">Experiences</a></li>
             <li class="footer-links"><a class="menu gallery-page" href="../pages/gallery.html">Gallery</a></li>
             <li class="footer-links"><a class="menu press-page" href="../pages/press.html">Press</a></li>
         </ul>

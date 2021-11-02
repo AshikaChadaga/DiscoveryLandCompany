@@ -487,10 +487,6 @@ background: linear-gradient(90deg, rgba(204,203,203,1) 0%, rgba(214,227,228,1) 1
         max-height: 70%;
     }
 
-    .section6-content{
-        margin-top: 10%;
-    }
-
     /* footer */
     .footer {
         display: grid;

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/press.css">
+    <link rel="shortcut icon" href="../assets/gallery/logo-transparent.png">
+    <link href='https://css.gg/arrow-long-down.css' rel='stylesheet'>
+    <title>News and Press | Discovery Land Company</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="header-navigation">
+        </div>
+        <div class="header-text">
+            <p class="discover-text">News</p>
+            <p class="yourworld-text">and Press</p>
+        </div>
+        <div class="scroll-text">
+            <p class="scroll-text">
+                Scroll to explore
+                <span class="scroll-arrow" style='font-size:100px;'>&darr;</span>
+            </p>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="section-1">
+            <h1 class="section1-title">Latest News</h1>
+        </div>
+
+        <div class="section-2">
+            <div class="layer1">
+                <img src="../assets/press/section2.jpg" alt="North Shore Preserve" class="section2-image">
+            </div>
+            <div class="layer2">
+                <div class="content">
+                    <p class="section2-tag">News</p>
+                    <h1 class="section2-heading">Discovery's newest property in Kuau'i North Shore Preserve</h1>
+                    <p class="section2-para">
+                        Discovery Land Company is excited to announce our 25th residential club community on the majestic
+                        North Shore of Kaua’i. North Shore Preserve, a one-of-a-kind residential community, spans one
+                        thousand acres at the base of the mountains in the pastoral Hanalei valley. This newly re-imagined,
+                        low-density project is a secluded and peaceful island oasis with limited initial homesite and hale
+                        offerings.
+                    </p>
+                    <a class="section2-link" href="../pages/golf.html">Read Article</a>
+                </div>
+            </div>
+            <div class="section2-navigation">
+                <div>
+                    <span class="left-arrow arrow">&larr;</span>
+                    <span class="pages">1 - 4</span>
+                    <span class="right-arrow arrow">&rarr;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-1 section-3">
+            <div>
+                <h1 class="section1-title">Press</h1>
+            </div>
+        </div>
+
+        <div class="section-4">
+            <div class="first-section">
+                <h1 class="section4-title">10 Fairways to Tee Off on Now</h1>
+                <p class="publisher">Vegas Magazine | Septenber 2021</p>
+                <a class="section2-link section4-link" href="https://view.publitas.com/discovery-land-company/vegas-magazine-september-2021/page/1">Read Article</a>
+            </div>
+            <div class="second-section">
+                <h1 class="section4-title">Golf Real Estate Roars Back as Vacation Homes Boom in Pandemic</h1>
+                <p class="publisher">Bloomberg | September 2021</p>
+                <a class="section2-link section4-link" href="https://view.publitas.com/discovery-land-company/golf-real-estate-roars-back-as-vacation-homes-boom-in-pandemic/page/1">Read Article</a>
+            </div>
+            <div class="third-section">
+                <h1 class="section4-title">Brexit drives British millionares to Portugal for tax and EU perks - but it's about to get complicated</h1>
+                <p class="publisher">Telegraph UK | August 20, 2021</p>
+                <a class="section2-link section4-link" href="https://view.publitas.com/discovery-land-company/telegraph-co-uk-08-20-21/page/1">Read Article</a>
+            </div>
+            <div class="fourth-section">
+                <h1 class="section4-title">This property Company Ups the Ante with Luxary and Sustainability</h1>
+                <p class="publisher">Sunset Magazine | August 13, 2021</p>
+                <a class="section2-link section4-link" href="https://view.publitas.com/discovery-land-company/sunset-com-08-13-21/page/1">Read Article</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footer-section"></div>
+
+    <script>
+        function displayDropdown() {
+            document.getElementById("dropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+
+</html>

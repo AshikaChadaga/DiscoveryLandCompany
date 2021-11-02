@@ -62,6 +62,10 @@ body {
     font-size: calc(20.66667px + 3.06667vw);
 }
 
+#dropdown{
+    display: none;
+}
+
 .dropbtn{
     /* align-items: center; */
     background-color: transparent;

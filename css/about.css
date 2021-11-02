@@ -73,9 +73,12 @@ body {
     margin: 6px 0;
 }
 
-.dropdown-content {
+#dropdown{
     display: none;
-    position: absolute;
+}
+
+.dropdown-content {
+    /* position: absolute; */
     background-color: black;
 }
 

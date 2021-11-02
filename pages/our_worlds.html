@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="../css/our_world.css">
     <link rel="shortcut icon" href="../assets/gallery/logo-transparent.png">
     <title>Our Worlds | Discovery Land Company</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+    <script>
+        $(document).ready(function () {
+            $(".dropbtn").click(function () {
+                $("#dropdown").slideToggle("slow");
+            });
+        });
+    </script>
 </head>
 <body id="gallery-body" class="gallery-body">
     <header class="header" id="header">
@@ -153,23 +161,6 @@
 
     <div id="footer-section"></div>
 
-    <script>
-        function displayDropdown() {
-            document.getElementById("dropdown").classList.toggle("show");
-        }
-        window.onclick = function (event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-    </script>
     <script src="../js/header.js"></script>
     <script src="../js/footer.js"></script>
 </body>

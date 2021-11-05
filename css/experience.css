@@ -204,8 +204,8 @@ body {
 .section3-gradient {
     position: relative;
     z-index: 1;
-    top: 380px;
-    left: 15%;
+    top: 36vh;
+    margin-left: 14vw;
     max-width: 51%;
     padding: 30px;
     padding-top: 700px;
@@ -216,8 +216,8 @@ body {
 .section3-image {
     position: relative;
     z-index: 2;
-    top: -600px;
-    left: 3%;
+    top: -59vh;
+    margin-left: 3vw;
 }
 
 .golf-image {
@@ -228,8 +228,8 @@ body {
     max-width: 27%;
     position: relative;
     z-index: 3;
-    top: -1400px;
-    left: 55%;
+    top: -134vh;
+    margin-left: 50vw;
 }
 
 .content {
@@ -274,8 +274,8 @@ body {
 .section4-gradient {
     position: relative;
     z-index: 1;
-    top: 380px;
-    left: 35%;
+    top: 40vh;
+    margin-left: 35vw;
     max-width: 53%;
     padding: 30px;
     padding-top: 700px;
@@ -286,20 +286,20 @@ body {
 .section4-image {
     position: relative;
     z-index: 2;
-    top: -600px;
-    left: 38%;
+    top: -59vh;
+    margin-left: 38vw;
 }
 
 .mountain-image {
-    min-width: 60%;
+    min-width: 100%;
 }
 
 .section4-content {
     max-width: 27%;
     position: relative;
     z-index: 3;
-    top: -1400px;
-    left: 20%;
+    top: -134vh;
+    margin-left: 20vw;
 }
 
 .content {
@@ -418,42 +418,62 @@ background: linear-gradient(90deg, rgba(204,203,203,1) 0%, rgba(214,227,228,1) 1
     font-size: 17px;
 }
 
-@media only screen and (max-width:1900px) {
+ @media only screen and (max-width:1900px) {
 
     /* section 3 */
 
     .section3-gradient {
-        top: 250px;
-        left: 15%;
+        top: 25vh;
+        margin-left: 15vw;
     }
 
     .section3-content {
         max-width: 27%;
-        top: -1300px;
-        left: 53%;
+        top: -130vh;
+        margin-left: 53vw;
     }
 
     /* section 4 */
     .section4-gradient {
-        top: 320px;
-        left: 31%;
+        top: 33vh;
+        margin-left: 31vw;
         max-width: 53%;
     }
 
     .section4-image {
-        top: -600px;
-        left: 34%;
+        top: -60vh;
+        margin-left: 34vw;
     }
 
     .mountain-image {
-        min-width: 65%;
+        min-width: 100%;
     }
 
     .section4-content {
-        max-width: 27%;
-        top: -1400px;
-        left: 20%;
+        max-width: 30%;
+        top: -140vh;
+        margin-left: 20vw;
     }
+} 
+
+@media only screen and (max-width:1700px) {
+    .section-title, .mission-content{
+        padding-left: 4vw;
+        padding-right: 7vw;
+    }
+
+    .section2-image{
+        max-width: 90%;
+    }
+
+    .section3-gradient{
+        margin-left: 21vw;
+    }
+
+    .section4-gradient {
+        top: 24vh;
+    }    
+
 }
 
 @media only screen and (max-width:1350px) {

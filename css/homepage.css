@@ -464,8 +464,8 @@ body {
     background-color: #161f1e;
     position: relative;
     z-index: 2;
-    top: -1100px;
-    left: 110%;
+    top: -100vh;
+    left: 52vw;
     max-width: 1000px;
     height: 600px;
 }
@@ -473,8 +473,8 @@ body {
 .section5-image {
     position: relative;
     z-index: 3;
-    top: -1800px;
-    left: 160%;
+    top: -170vh;
+    left: 76vw;
 }
 
 .section5-arrow {
@@ -607,6 +607,44 @@ body {
     font-size: 17px;
 }
 
+
+@media only screen and (max-width:1900px) {
+    .left-side-content{
+        padding-left: 6vw;
+    }
+
+    .section1-text{
+        max-width: 80%;
+        padding-right: 6vw;
+    }
+
+    .left-side-image{
+        padding-left: 3vw;
+        max-width: 80%;
+    }
+
+    .right-side-image{
+        padding-left: 3vw;
+        max-width: 90%;
+    }
+
+    .section-2{
+        padding-left: 6vw;
+    }
+
+    .section4-title {
+        padding-left: 6vw;
+    }
+
+    .section5-details {
+        left: 25vw;
+    }
+
+    .section5-image{
+        left: 50vw;
+    }
+}
+
 @media only screen and (max-width:1350px) {
 
     /* header */
@@ -686,13 +724,20 @@ body {
     /* section 5 */
     .section5-details {
         left: 30%;
+        max-width: 80%;
     }
 
     .section5-image {
+        
         position: relative;
         z-index: 3;
         top: -1800px;
-        left: 80%;
+        left: 65%;
+        
+    }
+
+    .madison-image{
+        max-width: 40%;
     }
 
     /* footer */
@@ -710,8 +755,6 @@ body {
         margin-bottom: 90px;
     }
 }
-
-@media only screen and (max-width:1500px) {}
 
 @media only screen and (max-width:1200px) {
     .left-header {

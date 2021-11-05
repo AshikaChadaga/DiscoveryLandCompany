@@ -1,4 +1,11 @@
 # DiscoveryLandCompany
 BridgeLabz: ReactJS - Project-1
 
-Discovery Land Company is a website built using HTML5, CSS and JavaScript.
+Discovery Land Company is a website built using HTML5, CSS and JavaScript. 
+Link to the original website: https://discoverylandco.com/
+
+Home Page - The homepage consists of 3 main sections. The Header section is divided into two sections using CSS grid for the discovery logo and the navigation tab which is common to all webpages. Additionally the header for the homepage consists of a background video that is played on an infinite loop and the page heading positioned at the center of the video. The footer is divided into 4 sections using CSS grid. The main content has many sub-sections each enclosed in a seperate div tag. The first section consists of 2 sides which are divided using CSS grid. The left side constsis of paragraph content and an image, while the right side consists of a single image. The second section consists of a heading tag on the left and buttons on the right. The next section is a continuous infinite photo slideshow. It is achieved using animation. The third section consists of heading tags, paragraphs and anchor tags. The fourth section is designed using CSS layering. The last section constists of three divs seperated column-wise using CSS grid.
+
+About DLC - The About DLC page consists of a total of 12 sections. The header consists of the common header with a background image and the page heading. The main content consists of multiple sub-sections. The first section consists of a simple paragraph tag. The second, seventh and ninth section consists of 2 main divs divided using CSS grid. The left side div consists of a heading tag and a paragraph tag, while the right side div consists of an image. The third, sixth and eight sections are the same and just consists of an image. The fourth section consists of two divs one for the heading and the other for arrow buttons seperated by CSS grid. The fifth sectionconsists of a continuous infinite photo slideshow which is achieved using animation. The last section consists of a background image,  a heading tag and an achor tag which leads to the our worlds page.
+
+Our Worlds - The our worlds page consits of 3 sections. The header and footer is the same. The main content consists of 25 divs seperated into 4 columns using CSS grid. Each div consists of an image, heading tag consisting of the name of the image and a paragraph tag consisting of the location in the image.

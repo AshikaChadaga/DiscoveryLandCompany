@@ -70,7 +70,7 @@ body {
     margin: 6px 0;
 }
 
-#dropdown{
+#dropdown {
     display: none;
 }
 
@@ -95,7 +95,7 @@ body {
     text-decoration: none;
 }
 
-.menu:hover{
+.menu:hover {
     border-bottom: 2px solid #fff;
 }
 
@@ -140,7 +140,6 @@ body {
 }
 
 .scroll-arrow {
-
     position: relative;
     left: 80%;
 }
@@ -272,19 +271,18 @@ body {
     background-color: #fff;
 }
 
-.image-cards{
-    animation : slide 10s linear infinite;
+.image-cards {
+    animation: slide 10s linear infinite;
 }
 
 @keyframes slide {
     0% {
-      transform: translatex(0%)
+        transform: translatex(0%)
     }
-  
     100% {
-      transform: translateX(-200%)
+        transform: translateX(-200%)
     }
-  }
+}
 
 .explore-images {
     background-size: 100% 100%;
@@ -481,7 +479,7 @@ body {
     color: #fff;
 }
 
-.section5-content{
+.section5-content {
     padding-left: 62px;
     padding-right: 62px;
     padding-bottom: 50px;
@@ -492,15 +490,15 @@ body {
     padding-top: 50px;
 } */
 
-.sun-icon{
+.sun-icon {
     padding-right: 62px;
 }
 
-.compass-icon{
+.compass-icon {
     padding-left: 62px;
 }
 
-.icon-text{
+.icon-text {
     font-size: 18px;
     color: gray;
     font-weight: lighter;
@@ -508,18 +506,18 @@ body {
     padding-left: 5px;
 }
 
-.location{
+.location {
     color: gray;
     font-size: 18px;
     padding-bottom: 0px;
 }
 
-.title{
+.title {
     color: #fff;
     font-size: 50px;
 }
 
-.location_value{
+.location_value {
     color: gray;
     font-size: 18px;
     padding-left: 5px;
@@ -607,76 +605,60 @@ body {
     font-size: 17px;
 }
 
-
 @media only screen and (max-width:1900px) {
-    .left-side-content{
+    .left-side-content {
         padding-left: 6vw;
     }
-
-    .section1-text{
+    .section1-text {
         max-width: 80%;
         padding-right: 6vw;
     }
-
-    .left-side-image{
+    .left-side-image {
         padding-left: 3vw;
         max-width: 80%;
     }
-
-    .right-side-image{
+    .right-side-image {
         padding-left: 3vw;
         max-width: 90%;
     }
-
-    .section-2{
+    .section-2 {
         padding-left: 6vw;
     }
-
     .section4-title {
         padding-left: 6vw;
     }
-
     .section5-details {
         left: 25vw;
     }
-
-    .section5-image{
+    .section5-image {
         left: 50vw;
     }
 }
 
 @media only screen and (max-width:1350px) {
-
     /* header */
     .left-header {
         padding-left: 0px;
     }
-
-    .header-text{
+    .header-text {
         padding-left: 100px;
     }
-
     /* .section-1 */
-
     .left-side-content {
         letter-spacing: 1px;
         padding-left: 80px;
     }
-
     .welcome-text {
         font-size: 40px;
     }
-
     .ourworld-text {
         font-size: 30px;
     }
-
     .section1-text {
         line-height: 30px;
         padding-right: 150px;
         font-size: 15px;
     }
-
     .left-side-image {
         padding-left: 50px;
         padding-right: 0px;
@@ -684,62 +666,48 @@ body {
         padding-bottom: 150px;
         max-width: 500px;
     }
-
     .right-side-image {
         padding-left: 0px;
         padding-right: 50px;
         max-width: 600px;
     }
-
-     /* section 2 */
-
-     .section-2 {
+    /* section 2 */
+    .section-2 {
         padding-left: 100px;
     }
-
-     .explore-text {
+    .explore-text {
         margin: 0px 0px;
         padding: 0px 0px;
         font-size: 40px;
     }
-
     .ourworlds-text {
         font-size: 30px;
         padding-bottom: 100px;
         margin: 0px;
     }
-
     .section2-right {
         padding-left: 90px;
     }
-
     /* section 4 */
-
     .section4-title {
         padding-left: 100px;
         font-family: 'Playfair Display', serif;
         padding-bottom: 20px;
     }
-
     /* section 5 */
     .section5-details {
         left: 30%;
         max-width: 80%;
     }
-
     .section5-image {
-        
         position: relative;
         z-index: 3;
         top: -1800px;
         left: 65%;
-        
     }
-
-    .madison-image{
+    .madison-image {
         max-width: 40%;
     }
-
     /* footer */
     .footer {
         display: grid;
@@ -783,29 +751,115 @@ body {
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .left-header {
-        margin: 0px;
-        padding-left: 0px;
-    }
-    .navigation {
-        padding-right: 20px;
+@media only screen and (max-width: 1060px) {
+    #right-header {
+        margin-left: 5%;
     }
     .header-text {
-        margin-left: 150px;
+        margin-left: 0px;
         margin-top: 50px;
     }
+    .nav-tab {
+        font-size: 15px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .navigation {
+        padding-right: 6px;
+    }
+    .logo-img {
+        max-width: 150px;
+        max-height: 45px;
+    }
+    .discover-text, .yourworld-text {
+        font-size: 70px;
+    }
+    .scroll-text {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .scroll-arrow {
+        left: 50%;
+    }
+    .section-1 {
+        grid-template-columns: 1fr;
+    }
+    .welcome-text, .ourworld-text {
+        font-size: 30px;
+    }
+    .section1-text {
+        line-height: 30px;
+    }
+    .left-side-image {
+        padding: 10% 10%;
+        max-width: 100%;
+    }
+    .right-side-image {
+        padding: 0% 10%;
+    }
+    .section2-right {
+        padding-left: 5px;
+    }
+    .button {
+        padding: 20px;
+        font-size: 12px;
+        margin: 4px 2px;
+    }
+
+    .section4-title{
+        padding-left: 10%;
+    }
+    .section4-para{
+        font-size: 15px;
+    }
+    .explore-text, .ourworlds-text{
+        font-size: 30px;
+    }
+    .discovery-text{
+        padding-bottom: 10px;
+    }
+    .map-title {
+        font-size: 15px;
+    }
+
+    .section5-details{
+        max-width: 500px;
+        left: 5vw;
+    }
+    .section5-image {
+        top: -150vh;
+        left: 58vw;
+    }
+
+    .section-6 {
+        max-height: 10%;
+        display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+    }
+
     .footer {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
         background-color: #161f1e;
     }
+
     .footer-logo {
-        margin-left: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 220px;
     }
     .footer-tag {
-        margin-left: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 90px;
+    }
+    .div-sections {
+        text-align: center;
+        padding-top: 60%;
+        padding-bottom: 80%;
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-size: 50px;
     }
 }

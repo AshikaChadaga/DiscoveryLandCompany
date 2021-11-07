@@ -212,28 +212,39 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-    .left-header {
-        margin: 0px;
-        padding-left: 0px;
-    }
-    .navigation {
-        padding-right: 20px;
+
+    #right-header {
+        margin-left: 10%;
     }
     .header-text {
-        margin-left: 150px;
-        margin-top: 50px;
+        margin-left: 10%;
+    }
+    .nav-tab {
+        font-size: 15px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .navigation {
+        padding-right: 6px;
     }
     .footer {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
         background-color: #161f1e;
     }
+
+    .footer-section{
+        margin-top: 30%;
+    }
+
     .footer-logo {
-        margin-left: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 220px;
     }
     .footer-tag {
-        margin-left: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 90px;
     }
 }
